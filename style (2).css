@@ -541,9 +541,11 @@ footer {
     header {
         height: auto;
         padding: 10px;
+        border-bottom: 0.5px solid rgb(188, 181, 181);
     }
 
     .navbar {
+        
         flex-direction: column;
         align-items: center;
         gap: 10px;
@@ -573,7 +575,9 @@ footer {
         width: auto;
         padding: 8px 15px;
     }
-
+.main-logo{
+    display: none;
+}
     /* Login Card */
     .login-card {
         width: 95%;
@@ -582,8 +586,8 @@ footer {
         top: 0;
         left: 0;
         transform: none;
-        margin: 20px auto;
-        padding: 25px 15px;
+        margin: 100px auto 10px auto;
+        padding: 50px 15px 25px 15px;
     }
 
     .info {
